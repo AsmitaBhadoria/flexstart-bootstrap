@@ -65,16 +65,19 @@ function HomeCardsSection() {
   );
 }
 
-function App() {
+function Apps() {
   return (
     <div className="App">
-      <Header />
       <HeroSection />
       <AboutSection />
-      <HomeCardsSection />
+      <div className="App1">ṣ
+        <HomeCardsSection />
+        <HomeCardsSection />
+        <HomeCardsSection />
+      </div>
       {/* Add other components as needed */}
     </div>
   )
 }
 
-export default App;
+export default Apps;
